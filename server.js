@@ -34,7 +34,7 @@ app.use(
 
 // mounted routers
 app.use('/', indexRouter)
-app.use('/posts', postsRouter)
+app.use('/blog', postsRouter)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

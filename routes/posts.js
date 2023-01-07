@@ -1,11 +1,12 @@
 import { Router } from 'express'
-
+import * as postsCtrl from '../controllers/posts.js'
 const router = Router()
 
+
 /* GET users listing. */
-router.get('/', function(req, res) {
-  res.send('respond with a resource')
-})
+router.get('/', postsCtrl.index)
+
+router.get('/new', postsCtrl.new)
 
 export {
   router
