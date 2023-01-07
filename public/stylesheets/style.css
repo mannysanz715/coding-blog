@@ -50,3 +50,7 @@ button:hover{
 .del-btn:hover{
   background-color: lightcoral;
 }
+
+.blog-content{
+  max-width: 750px;
+}
