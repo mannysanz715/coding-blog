@@ -54,14 +54,23 @@ function deletePost(req, res){
   })
 }
 
-function edti(req, res){
-  
+function edit(req, res){
+  Post.findById(req.params.id)
+  .then(post =>{
+    res.render('posts/edit',{
+      post
+    })
+  })
+  .catch(err =>{
+    console.log(err)
+    res.render('posts/show')
+  })
 }
 
 function update(req, res){
   Post.findByIdAndUpdate(req.params.id, req.body, {new: true})
   .then(post =>{
-    res.redirect('posts/index')
+    res.redirect('/blog')
   })
   .catch(err =>{
     console.log(err)

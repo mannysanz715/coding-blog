@@ -17,8 +17,8 @@ router.post('/', postsCtrl.create)
 
 router.delete('/:id', postsCtrl.delete)
 
-
 router.put('/:id', postsCtrl.update)
+
 export {
   router
 }
