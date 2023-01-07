@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
   <title>Document</title>
 </head>
 <body>
   <form action="/blog/<%=post._id%>?_method=PUT" method="POST">
-  <input type="text" name="title" value="<%= post.title %>">
-  <input type="text" name="content" value="<%= post.content %>">
-    <button type="submit">Edit Blog Post</button>
+  <input type="text" name="title" class="input-title" value="<%= post.title %>">
+  <textarea name="content" class="input-content" cols="30" rows="10" placeholder="Blog Post Content"><%= post.content %></textarea>
+    <button type="submit">Save Changes</button>
   </form>
 </body>
 </html>

@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
   <title>Document</title>
 </head>
 <body>
   <h1>Add a Blog Post</h1>
   <form action="/blog" method="POST">
-    <input type="text" name="title" placeholder="Title of Post" autocomplete="off">
-    <input type="text" name="content" placeholder="Post Content" autocomplete="off">
+    <input type="text" name="title" class="input-title"placeholder="Title of Post" autocomplete="off">
+    <textarea name="content" class="input-content" cols="30" rows="10" placeholder="Blog Post Content"></textarea>
     <button type="submit">Create Post</button>
   </form>
 </body>
