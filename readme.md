@@ -1,5 +1,7 @@
 # CODING JOURNEY BLOG POST
 
+# [Live Blog](https://coding-blog.fly.dev/blog)
+
 ![blog image](./assets/blogscren.PNG)
 
 
