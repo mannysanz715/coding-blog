@@ -1,3 +1,12 @@
+:root{
+  --background-title: #003049;
+  --background-color: #EAE2B7;
+  --text-title: #FCBF49;
+  --text-color: black;
+  --main-btn-color: #F77F00;
+}
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,6 +14,10 @@ body {
   flex-direction: column ;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 form{
   display: flex;
@@ -27,11 +40,11 @@ form{
 }
 
 a {
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
 }
 a:hover{
-  color: rgb(102, 102, 102);
+  color: var(--text-title);
 }
 
 
@@ -45,7 +58,7 @@ button{
 
 }
 button:hover{
-  background-color: lightblue;
+  background-color: var(--main-btn-color);
 }
 .del-btn:hover{
   background-color: lightcoral;
@@ -53,4 +66,12 @@ button:hover{
 
 .blog-content{
   max-width: 750px;
+}
+
+header{
+  background-color: var(--background-title);
+  color: var(--text-title);
+  width: 100vw;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px gray;
 }

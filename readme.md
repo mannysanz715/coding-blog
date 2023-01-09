@@ -1,6 +1,6 @@
 # CODING JOURNEY BLOG POST
 
-![blog image](./assets/blogscreenshot.PNG)
+![blog image](./assets/blogscren.PNG)
 
 This Blog was create with two purposes in mind.
 1. I wanted practice with RESTful routing
