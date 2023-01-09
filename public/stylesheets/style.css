@@ -6,7 +6,6 @@
   --main-btn-color: #F77F00;
 }
 
-
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -19,6 +18,14 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+h3{
+  font-size: 1.2rem ;
+}
+p{
+  font-size: 1.1rem;
+}
+
 form{
   display: flex;
   flex-direction: column;
@@ -74,4 +81,12 @@ header{
   width: 100vw;
   text-align: center;
   box-shadow: 0 4px 2px -2px gray;
+}
+
+.show-page{
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20vh;
+  font-size: 1.3rem;
 }

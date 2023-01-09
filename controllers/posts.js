@@ -2,6 +2,7 @@ import { Post } from "../models/blog.js";
 
 function index(req, res){
   Post.find({})
+  .sort({_id : -1})
   .then( posts => {
     res.render('posts/index',{
       posts

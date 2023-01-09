@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
   <title>Document</title>
 </head>
-<body>
+<body class="show-page">
   <h1><%= post.title%></h1>
   <p class="blog-content"><%= post.content %></p>
   <form action="/blog/<%=post._id%>?_method=DELETE" method="POST">

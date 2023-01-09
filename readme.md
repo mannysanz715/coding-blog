@@ -25,6 +25,6 @@ This seemed like a great opportunity to tackle both of those things. As I progre
 
 ## IceBox Items
 
-- [ ] Reverse Post Order
+- [x] Reverse Post Order
 - [ ] More acessible styling
 - [ ] Keep updated to current lessons
