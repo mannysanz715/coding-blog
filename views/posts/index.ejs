@@ -14,7 +14,7 @@
   <button type="submit">Create a Post!</button>
 </form>
 <% posts.forEach(post => { %>
-  <h3 class="blog-title"><a href="/blog/<%=post._id%>"><%= post.title %></a></h3>
+  <h3 class="blog-title"><a href="/blog/<%=post._id%>"><%= post.title %> - <strong><%= post.date %></strong></a></h3>
   <p class="blog-content"><%= post.content %></p>
   <hr>
 <% }) %>
