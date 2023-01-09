@@ -22,3 +22,9 @@ This seemed like a great opportunity to tackle both of those things. As I progre
 - EJS
 - REST routes
 - CSS stylings
+
+## IceBox Items
+
+[ ] Reverse Post Order
+[ ] More acessible styling
+[ ] Keep updated to current lessons
