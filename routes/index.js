@@ -1,11 +1,9 @@
 import { Router } from 'express'
-
+import * as postCtrl from '../controllers/posts.js'
 const router = Router()
 
 /* GET home page. */
-router.get('/', function(req, res) {
-  res.render('posts/index')
-})
+router.get('/', postCtrl.index)
 
 export { 
   router
